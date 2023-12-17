@@ -1,0 +1,5 @@
+Camera camera = new Camera();
+MobilePhone mobilePhone = new AndroidPhone();
+
+camera.takePicture();
+mobilePhone.makeCall();
