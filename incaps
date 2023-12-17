@@ -1,0 +1,32 @@
+public class Car {
+    private String model;
+    private int doorNumber;
+
+    public Car(String model, int doorNumber) {
+        this.model = model;
+        this.doorNumber = doorNumber;
+    }
+
+    public String getModel() {
+        return model;
+    
+    } 
+
+    public void setModel(String newModel) {
+       this.model = newModel;
+    }  
+
+    public int getDoorNumber() {
+         return doorNumber; 
+     }
+
+     public void setDoorNumber(int newDoorNumber) {
+          this.doorNumber = newDoorNumber;
+      }
+
+    @Override
+    public String toString() {
+            return "Car [model=" + model + ", doorNumber=" + doorNumber + "]";
+    }   
+} 
+//В этом примере создали класс Car, который инкапсулирует модель автомобиля и количество дверей.
